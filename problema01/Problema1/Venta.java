@@ -37,7 +37,7 @@ public class Venta {
     public void CalcularDescuento() {
         if (this.precioProducto >= 1000 && this.producto >= 10) {
             this.descuento = this.precioProducto * 0.10;
-        } else if (this.precioProducto < 1000) {
+        } else  {
             this.descuento = this.precioProducto * 0.05;
         }
     }
